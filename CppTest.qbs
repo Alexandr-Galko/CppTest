@@ -4,9 +4,9 @@ Project {
     minimumQbsVersion: "1.7.1"
 
     CppApplication {
-//        Depends { name: "Qt.core" }
 
-        cpp.cxxLanguageVersion: "c++1z"
+        cpp.cxxLanguageVersion: "c++17"
+//        cpp.linkerFlags:["-lc++abi"]
 
         consoleApplication: true
         files: [
